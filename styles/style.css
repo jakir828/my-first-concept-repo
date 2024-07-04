@@ -1,8 +1,35 @@
-p{
-    background-color: blue;
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(web.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
 }
 
-img{
-    border: 5px solid red;
-    
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+
 }
